@@ -313,3 +313,9 @@ footer {
     }
 
 }
+#latInput{
+    text-align: center;
+}
+#lonInput{
+    text-align: center;
+}

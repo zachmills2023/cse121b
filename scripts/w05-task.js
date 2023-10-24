@@ -45,7 +45,6 @@ const getTemples = async () => {
 /* sortBy Function */
 
 
-
 getTemples();
 console.log(templeList);
 
