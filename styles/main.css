@@ -311,11 +311,42 @@ footer {
         margin: 0 auto;
         max-width: 950px;
     }
+}
 
+/* Below is the CSS specific to the final-project. */
+#iconContainer {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 220px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    pointer-events: none;
+    justify-content: space-around; /* Adjusts the spacing between the icons */
+}
+
+#weatherChart {
+    z-index: -1;
+    width: 75%;
+    pointer-events: auto;
+}
+
+#heatIcon,
+#chillIcon,
+#windIcon,
+#wetIcon {
+    z-index: 1;
+    opacity: 0.3;
+    width: 10%;
+    padding-bottom: 10px;
 }
 #latInput{
     text-align: center;
+    pointer-events: auto;
 }
 #lonInput{
     text-align: center;
+    pointer-events: auto;
 }
